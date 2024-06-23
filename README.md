@@ -1,10 +1,10 @@
-Editors:-
+# Editors:-
 # There are two types of editors.
 In text based:-
 1.	vi (visual editor)
 2.	vim
 
-Operations of command mode:-
+# Operations of command mode:-
 1.	dd   = deletes a line
 2.	ndd  = deletes ‘n’ lines
 3.	yy   = copies a line
@@ -17,8 +17,8 @@ Operations of command mode:-
 10.	Ctrl + r = redo
 11.	Shift + g = moves the cursor to the last line of the file.
 
-Execution mode:-
-# This is the last mode of vi editor in which we can perform the operation like saving a file or quitting a file without saving.
+# Execution mode:-
+This is the last mode of vi editor in which we can perform the operation like saving a file or quitting a file without saving.
 1. :q= quit without saving
 2. :q!= quit forcefully with out saving.
 3. :w= write(save)
