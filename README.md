@@ -28,3 +28,29 @@ This is the last mode of vi editor in which we can perform the operation like sa
 7. :84= the cursor goes to line 84
 8. :wn= to save & switch to next file
 9. :rew= to switch to last file(without saving)
+
+$?WS2#Dz2<>Q$4F<*!%n
+
+---
+awk '{print $0}' <filename> # prints all data
+awk '{print $2}' <filename> # prints second colum
+awk '{print $2},$3' <filename> # prints second coloum and 3rd colum
+awk '$2 > 30 {print $0}' # prints age morethan 30 
+cat <filename> | awk '$5 == "singapore" {print $0}'
+---
+NRNF (NO of Recoreds and No of Fields)  
+cat <filename> | awk '{print $NR}'
+cat <filename> | awk '{print $1}'
+cat <filename> | awk '{print $2}'
+cat <filename> | awk '{print $3}'
+cat <filename> | awk '{print $4}'
+cat <filename> | awk '{print $5}'
+cat <filename> | awk 'NR == 2 {print}'
+
+cat <filename> | awk '{print $NF}'
+cat <filename> | awk 'NF == 7 {print}'
+
+
+
+
+
